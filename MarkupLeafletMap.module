@@ -280,7 +280,7 @@ LINES;
 
         $inlineScript .= "});\n</script>";
 
-        $this->page->inlineScript = $inlineScript;
+        $this->page->inlineScript .= $inlineScript;
 
         return $out;
     }
