@@ -181,7 +181,7 @@ class MarkupLeafletMap extends WireData implements Module {
 
         <!-- Extend Leaflet with Awesome.Markers -->
         <link rel="stylesheet" type="text/css" href="{$url}assets/leaflet-awesome-markers/leaflet.awesome-markers.css" />
-        <script type="text/javascript" src="{$url}assets/leaflet-awesome-markers/leaflet.awesome-markers.min.js"></script>
+        <script type="text/javascript" src="{$url}assets/leaflet-awesome-markers/leaflet.awesome-markers.js"></script>
 LINES;
 
         return $lines;
